@@ -337,6 +337,18 @@ overlays global
 	height:auto;
 }
 
+img.respimg {
+  height: 350px;
+  width: 291px;
+}
+
+
+img.bigimg {
+  height: 700px;
+  width: auto;
+}
+
+
 /* ====================
 Navigation
 --------------------------------------------------------------*/

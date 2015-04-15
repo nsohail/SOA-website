@@ -446,7 +446,7 @@ function initPortfolio() {
 	  projectNav = $('#project-navigation ul'),
 	  exitProject = $('div#closeProject a'),
 	  easing = 'easeOutExpo',
-	  folderName ='projects';
+	  folderName ='portfolios';
 	  			
 		$(window).bind( 'hashchange', function() {  		 
 		hash = $(window.location).attr('hash'); 
