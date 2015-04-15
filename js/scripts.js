@@ -310,7 +310,7 @@ function initCashemir() {
 	
 	$('#folio_container').mixitup({
 		targetSelector: '.box',
-		effects: ['fade','rotateZ','rotateX','rotateY'],
+		effects: ['fade'],
 		easing: 'windback',
 		transitionSpeed: 1200,
 	});	
@@ -672,11 +672,11 @@ function initPortfolio() {
 	
 	// Hover animation   ---	
 				
-		$('.box a').hover(function(){
-			$(this).find('img').addClass('img-rotade');		
-			},function(){
-			$(this).find('img').removeClass('img-rotade');	
-		});			
+		// $('.box a').hover(function(){
+		// 	$(this).find('img').addClass('img-rotade');		
+		// 	},function(){
+		// 	$(this).find('img').removeClass('img-rotade');	
+		// });			
 		
 		$('.planContainer .button').hover(function(){
 			$(this).parent('.planContainer').addClass('bc');
