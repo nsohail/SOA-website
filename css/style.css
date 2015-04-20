@@ -1180,12 +1180,12 @@ ajax content
 }
 
 .degree-description p {
-	padding-bottom: 7px;
-	border-top:none;
+	padding: 7px 0;
+	border-top: none;
 }
 
 .degree-details p {
-	padding-bottom: 7px;
+	padding: 0px;
 	border-bottom:none;
 	font-size: 12px;
 	color: #064349;
@@ -1194,6 +1194,12 @@ ajax content
 .project-details p span {
 	font-weight: bold;
 }
+
+
+.project-info > .social-icons {
+	text-align: left;
+}
+
 .popup-gallery a{
 	display:block;
 	position:relative;
