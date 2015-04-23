@@ -814,7 +814,7 @@ function initPortfolio() {
 	  ];  
 	  var mapOptions = {
 		zoom:18,
-		zoomControl: false,
+		zoomControl: true,
 		scaleControl: false,
 		scrollwheel: false,
 		disableDefaultUI:true,
