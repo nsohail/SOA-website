@@ -2391,8 +2391,10 @@ span.time {
 
 
 
-.nopic {
+div.sections.nopic {
 	padding-bottom: 30px;
+	border-top: 1px solid #ae3f24;;
+	padding-top: 16px
 }
 
 .nopic > p {
