@@ -2388,3 +2388,30 @@ img.credit-icon {
 span.time {
 	color:#ae3f24
 }
+
+
+
+.nopic {
+	padding-bottom: 30px;
+}
+
+.nopic > p {
+	color: #ae3f24;
+	font-size: 18px;
+	padding-bottom: 5px;
+}
+
+.nopic > ul > li {
+	font-size: 14px;
+	padding-bottom: 4px;
+}
+
+a.siloLink:hover {
+	color: #ae3f24;
+}
+
+span.major {
+	color: #ae3f24;
+	font-size: 12px;
+	font-style: italic;
+}
