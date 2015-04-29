@@ -1178,11 +1178,11 @@ ajax content
 }
 
 .degree-details {
-	margin-bottom: 10px;
+	margin-bottom: 8px;
 }
 
 .degree-description p {
-	padding: 7px 0;
+	padding: 10px 0;
 	border-top: none;
 }
 
@@ -1200,6 +1200,8 @@ ajax content
 
 .project-info > .social-icons {
 	text-align: left;
+	padding-bottom: 8px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.16);
 }
 
 .popup-gallery a{
@@ -2416,4 +2418,17 @@ span.major {
 	color: #ae3f24;
 	font-size: 12px;
 	font-style: italic;
+}
+
+a.icon {
+	font-size: 14px;
+	color: rgba(245, 79, 54, 0.65);
+}
+
+a.icon:hover {
+	color: rgba(245, 79, 54, 1);
+}
+
+.icon img {
+	margin-right: 10px;
 }
