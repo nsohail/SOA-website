@@ -575,6 +575,7 @@ function initPortfolio() {
 			if(typeof closeURL!='undefined' && closeURL!='') {
 				projectContainer.find('iframe').remove();
 				location = '#_';
+
 			}
 				portfolioGrid.find('li.box.current').children().removeClass('act');
 				portfolioGrid.find('li.box.current').removeClass('cur' );			
@@ -584,6 +585,7 @@ function initPortfolio() {
 				next = current.next('li.box');
 				target = $(next).children('a').attr('href');
 				$(this).attr('href', target);
+				window.location = target;
 				if (next.length === 0) { 
 					 return false;			  
 				 } 
@@ -591,12 +593,17 @@ function initPortfolio() {
 			   current.children().removeClass('act');
 			   next.addClass('cur');
 			   next.children().addClass('act');
+
+			   
+			   
+
 			});
 			$('#prevProject a').on('click',function () {			
 			  current = portfolioGrid.find('li.box.cur');
 			  prev = current.prev('li.box');
 			  target = $(prev).children('a').attr('href');
 			  $(this).attr('href', target);
+			  window.location = target;
 			   if (prev.length === 0) {
 				  return false;			
 			   }
